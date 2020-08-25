@@ -2,15 +2,17 @@
   "name": "learnexpress",
   "version": "1.0.0",
   "description": "This is workspace to learn Nodejs",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon /src/app.js"
+    "start": "nodemon /src/app.js",
+    "start-test": "nodemon /src/app.js"
   },
   "author": "Kumar Shivam",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "hbs": "^4.1.1",
     "nodemon": "^2.0.4"
   }
 }
